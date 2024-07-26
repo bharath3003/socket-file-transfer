@@ -1,8 +1,7 @@
-# socket-file-transfer
-file transfer using Tcp and socket programming incorporating streamlit for ui 
-remember the file to be transferred is to be present in the directory of client.py else shift it there
-the downloaded files are stored in downloads folder 
+#Socket File Transfer
+Socket File Transfer is an application for transferring files using TCP and socket programming, with a Streamlit interface for the user. The file to be transferred must be present in the directory of client.py, and the downloaded files will be stored in the downloads folder.
 
-to add socket into the file part follow the steps:
-1. create a ssl certificate for the server and add the socket request part from the client
-2. add the properitary ssl part in the code
+Features
+File Transfer: Transfer files between server and client using TCP and socket programming.
+Streamlit UI: User-friendly interface for file selection and transfer.
+SSL Encryption: Secure file transfer using SSL certificates.
